@@ -99,6 +99,18 @@ footer{
     padding: 40px 0;
 }
 
+.footer-left, .footer-right{
+    display: inline-block;
+}
+
+.footer-left{
+    width: 50%;
+}
+
+.footer-right{
+    width: 50%;
+}
+
 .logo-footer{
     width: 12%;
     padding: 0 0 0 5%;
@@ -126,7 +138,8 @@ footer{
 }
 
 .pix-logo{
-    width: 5%;
+    width: 100px;
+    height: 200px;
 }
 
 /* FOOTER */
