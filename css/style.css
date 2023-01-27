@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.caixa{
+    background: #4bbedb;
+    width: 100%;
+    margin: 0 0 3% 0;
+}
+
+.logo{
+    width: 10%;
+    position: relative;
+    left: 5%;
+}
+
+.login-icon{
+    width: 2%;
+    position: absolute;
+    top: 10%;
+    left: 85%;
+}
+
+.carrinho-icon{
+    width: 2.3%;
+    position: absolute;
+    top: 10%;
+    left: 80%
+}
+
+.titulo-destaque{
+    text-align: center;
+    font-size: 2.5em;
+    clear: left;    
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.caixa-produtos{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background: white;
+    border: 3px transparent solid;
+    border-radius: 2%;
+    box-shadow: 3px 3px 10px rgb(204, 204, 204);
+    margin: 5% 20%;
+    padding: 1%;
+}
+
+.caneca-pascoa{
+    width: 1200px;
+    height: 400px;
+}
+
+.borda-filtro{
+    width: 10%;
+    height: 80%;
+    background: transparent;
+    border: 3px #4bbedb solid;
+    border-radius: 2%;  
+    margin: 1%;
+    padding: 1%;
+}
+
+.filtro-texto{
+    font-size: 20px;
+    padding: 5%;
+}
+
+.checkbox-filtro{      
+    display: block;
+    margin: 4% 0;
+}
+
+
+footer{
+    position: relative;
+    background: #4bbedb;
+    width: 100%;
+    bottom: 0;
+    padding: 40px 0;
+}
+
+.logo-footer{
+    width:15%;
+    padding: 0 0 0 5%;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+    padding: 0 0 2% 5%;
+}
