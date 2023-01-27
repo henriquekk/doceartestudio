@@ -21,11 +21,19 @@ body {
     left: 85%;
 }
 
+.login-icon:hover {
+    cursor:pointer;
+}
+
 .carrinho-icon{
     width: 2.3%;
     position: absolute;
     top: 10%;
     left: 80%
+}
+
+.carrinho-icon:hover {
+    cursor:pointer;
 }
 
 .titulo-destaque{
@@ -82,7 +90,7 @@ body {
     margin: 6% 0;
 }
 
-
+/* FOOTER */
 footer{
     position: relative;
     background: #4bbedb;
@@ -92,7 +100,7 @@ footer{
 }
 
 .logo-footer{
-    width:15%;
+    width: 12%;
     padding: 0 0 0 5%;
 }
 
@@ -102,3 +110,23 @@ footer{
     margin-top: 20px;
     padding: 0 0 2% 5%;
 }
+
+.footer-content button{
+    background-color: transparent;
+    border: none;
+    margin: 0 20px 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.footer-content button:hover {
+    cursor:pointer;
+}
+
+.pix-logo{
+    width: 10%;
+}
+
+/* FOOTER */
