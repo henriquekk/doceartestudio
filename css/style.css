@@ -137,6 +137,15 @@ footer{
     cursor:pointer;
 }
 
+.pagamento-texto{
+    position: absolute;
+    right: 25%;
+    top: 20%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
 #pix-logo{
     width: 100%;
     margin-top: 10px;
@@ -149,7 +158,7 @@ footer{
     width: 110px;
     height: 55px;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
     position: absolute;
     right: 40%;
     bottom: 60px;
@@ -167,14 +176,18 @@ footer{
     width: 110px;
     height: 55px;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
     position: absolute;
     right: 30%;
     bottom: 60px;
 }
 
+.mastercard-align{
+    text-align: center;
+}
+
 #mastercard-logo{
-    width: 100%;
+    width: 75%;
 }
 
 .mastercard-borda{
@@ -184,7 +197,7 @@ footer{
     width: 110px;
     height: 55px;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
     position: absolute;
     right: 20%;
     bottom: 60px;
@@ -202,7 +215,7 @@ footer{
     width: 110px;
     height: 55px;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
     position: absolute;
     right: 10%;
     bottom: 60px;
