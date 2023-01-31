@@ -145,6 +145,7 @@ footer{
     text-transform: uppercase;
     font-weight: bold;
     color: white;
+    font-size: 14px;
 }
 
 #hipercard-logo{
@@ -293,5 +294,76 @@ footer{
     right: 31%;
     bottom: 50%;
 }
+
+.logos-pagamentos:hover{
+    cursor: pointer;
+}
+
+.pagamento-texto:hover{
+    cursor: pointer;
+}
+
+.footer-contato-texto{
+    position: absolute;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    left: 35%;
+    top: 20%;
+}
+
+#whatsapp-logo{
+    position: absolute;
+    width: 2%;
+    left: 35%;
+    top: 30%;
+}
+
+#instagram-logo{
+    position: absolute;
+    width: 2%;
+    left: 35%;
+    top: 46%;
+}
+
+#email-logo{
+    position: absolute;
+    width: 2%;
+    left: 35%;
+    top: 60%;
+}
+
+.f-whatsapp-texto{
+    color: white;
+    position: absolute;
+    left: 38%;
+    top: 34%;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.f-instagram-texto{
+    color: white;
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.f-email-texto{
+    color: white;
+    position: absolute;
+    left: 38%;
+    top: 64%;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 
 /* FOOTER */
