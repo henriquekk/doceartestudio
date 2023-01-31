@@ -90,7 +90,7 @@ body {
     margin: 6% 0;
 }
 
-/* FOOTER */
+/*------------------------------------------------------------------------ FOOTER ------------------------------------------------------------------------*/
 footer{
     position: relative;
     background: #19C8DB;
@@ -295,14 +295,6 @@ footer{
     bottom: 50%;
 }
 
-.logos-pagamentos:hover{
-    cursor: pointer;
-}
-
-.pagamento-texto:hover{
-    cursor: pointer;
-}
-
 .footer-contato-texto{
     position: absolute;
     text-align: center;
@@ -366,4 +358,4 @@ footer{
 }
 
 
-/* FOOTER */
+/*------------------------------------------------------------------------ FOOTER ------------------------------------------------------------------------*/
