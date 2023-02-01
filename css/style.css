@@ -177,21 +177,46 @@ body {
 
 .filtro-texto-principal{
     font-size: 20px;
-    padding: 5%;
+    text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    margin: 20px;
 }
 
 .filtro-texto{
-    font-size: 16px;
-    padding: 3%;
+    font-size: 18px;
     text-transform: uppercase;
-    font-weight: bold;   
+    font-weight: bold;  
+    margin: 0 0 20px 0;
+    text-align: center;
 }
 
-.checkbox-filtro{      
-    display: block;
-    margin: 6% 0;
+.custom-checkbox{
+    margin: 8px;
+}
+
+.custom-checkbox input{
+    display: none;
+}
+
+.custom-checkbox input + label:after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 4px;
+    background-color: white;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 0 0 3px 8px;
+}
+
+.custom-checkbox input:checked + label:after{
+    background-color: #19C8DB;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    border: none;
+    padding: 1px;
+    background-position: center;
 }
 
 .produtos-box{
@@ -213,7 +238,14 @@ body {
 }
 
 
-
+/*              <label for="checkbox-filtro">Cadernos<input type="checkbox">
+                <label for="checkbox-filtro">Canecas<input type="checkbox">
+                <label for="checkbox-filtro">Copos<input type="checkbox">
+                <label for="checkbox-filtro">Decoração<input type="checkbox">
+                <label for="checkbox-filtro">Festas<input type="checkbox">
+                <label for="checkbox-filtro">Infantil<input type="checkbox">
+                <label for="checkbox-filtro">Kits<input type="checkbox">
+                <label for="checkbox-filtro">Xícaras<input type="checkbox"> */
 
 /*------------------------------------------------------------------------ PRODUTOS.HTML ------------------------------------------------------------------------*/
 
