@@ -86,19 +86,8 @@ body {
     font-weight: bold;
     margin-bottom: 5%;
 }
-/*.caixa-destaques{
-    display: flex;
-    align-items: center;
-    width: 60%;
-    background: white;
-    border: 3px transparent solid;
-    border-radius: 20px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 14%), 0px 4px 5px rgba(0, 0, 0, 14%), 0px -2px 8px rgba(0, 0, 0, 14%);
-    margin: 5% 20%;
-    padding: 1%;
-}*/
 
-.caixa-destaques{
+.slider-destaques{
     width: 1200px;
     height: 400px;
     overflow: hidden;
@@ -120,21 +109,21 @@ body {
     display: flex;
 }
 
-.slide-bar{
+.slide-dot{
     width: 6px;
     height: 6px;
     border: 2px solid white;
     margin: 6px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 .slides input{
     display: none;
 }
 
-.slide-bar:hover{
+.slide-dot:hover{
     background-color: white;
 }
 
@@ -168,6 +157,40 @@ body {
 
 #slide4:checked ~ .s1{
     margin-left: -75%;
+}
+
+.auto-slide div{
+    width: 6px;
+    height: 6px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.auto-slide{
+    position: absolute;
+    bottom: 20px;
+    left: 95%;
+    transform: translate(-95%);
+    display: flex;
+}
+
+#slide1:checked ~ .auto-slide .auto-btn1{
+    background-color: white;
+}
+
+#slide2:checked ~ .auto-slide .auto-btn2{
+    background-color: white;
+}
+
+#slide3:checked ~ .auto-slide .auto-btn3{
+    background-color: white;
+}
+
+#slide4:checked ~ .auto-slide .auto-btn4{
+    background-color: white;
 }
 
 /*------------------------------------------------------------------------ DESTAQUES PAGINA PRINCIPAL ------------------------------------------------------------------------*/
