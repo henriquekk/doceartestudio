@@ -16,4 +16,5 @@ function nextImage(){
     document.getElementById("slide"+count).checked = true;
 
 }
-//---------- Animação Slider ----------//
+//---------- Pagina Compra.html ----------//
+
