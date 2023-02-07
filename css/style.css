@@ -354,9 +354,9 @@ body {
 
 .nome-produto-compra{
     display: inline-block;
-    position: relative;
-    bottom: 100%;
-    left: 50%;
+    position: absolute;
+    bottom: 85%;
+    left: 45%;
     font-size: 40px;
     margin: 10px;
     font-weight: bold;
@@ -365,9 +365,9 @@ body {
 
 .categoria-compra{
     display: inline-block;
-    position: relative;
-    bottom: 85%;
-    left: 5%;
+    position: absolute;
+    bottom: 75%;
+    left:45%;
     font-size: 14px;
     border: 2.5px solid black;
     border-radius: 20px;
@@ -376,26 +376,40 @@ body {
     text-transform: uppercase;
 }
 
-.descricao-produto-compra{
+.titulo-descricao-produto-compra{
+    max-width: 450px;
     display: inline-block;
-    position: relative;
-    bottom: 65%;
-    right: 5%;
+    position: absolute;
+    bottom: 60%;
+    left: 50%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0c91a0;
+    font-size: 18px;
+}
+
+.descricao-produto-compra{
+    max-width: 450px;
+    display: inline-block;
+    position: absolute;
+    bottom: 50%;
+    left: 45%;
+    font-style: italic;
 }
 
 .valor-compra{
     display: inline-block;
-    position: relative;
-    bottom: 40%;
-    right: 20%;
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
     font-size: 28px;
 }
 
 .btn-compra{
     display: inline-block;
-    position: relative;
-    bottom: 20%;
-    right: 15%;
+    position:absolute;
+    bottom: 5%;
+    left: 60%;
 }
 
 .btn-adicionar-carrinho{
