@@ -82,12 +82,13 @@ body {
     clear: left;    
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
 .slider-destaques{
-    width: 1200px;
-    height: 400px;
+    max-width: 1200px;
+    max-height: 400px;
     overflow: hidden;
     position: relative;
     top: 50%;
@@ -698,5 +699,52 @@ footer{
 
 
 /*------------------------------------------------------------------------ DESIGN RESPONSIVO ------------------------------------------------------------------------*/
+@media screen and (max-width: 560px){     
+    
+/*header*/    
+    header, .caixa{
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .logo{
+        width: 25%;
+    }
 
+    .search-box, .search-button{
+        width: 45%;
+    }
 
+    .login-icon, .carrinho-icon{
+        display: none;
+    }
+
+/*pagina principal*/
+    .slider-destaques{
+        width: 90%;
+        margin-top: 30% ;
+    }
+
+    .caixa-produtos{
+        margin-left: 20%;
+    }
+
+/*footer*/
+    footer, .footer-left{
+        width: 100%;
+    }
+
+    .logos-pagamentos, .pagamento-texto, .f-email-texto, .f-instagram-texto, .f-whatsapp-texto, .footer-contato-texto{
+        display: none;
+    }
+
+    .logo-footer{
+        width: 50%;
+    }
+
+    #email-logo, #whatsapp-logo, #instagram-logo{
+        left: 70%;
+        width: 7%;
+        margin: 20px;
+    }
+}   
