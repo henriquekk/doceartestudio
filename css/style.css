@@ -729,6 +729,84 @@ footer{
         margin-left: 20%;
     }
 
+/*pagina produtos*/
+
+    .borda-filtro{
+        padding: 15px;
+    }
+
+    .filtro-texto{
+        font-size: 12px;
+    }
+
+    .filtro-texto-principal{
+        text-align: center;
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    .custom-checkbox label{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+
+    .produtos-box{
+        margin-left: 25%;
+    }
+
+/*pagina compra*/
+
+    .caixa-compra{
+        width: 80%;
+        margin: 30px 0 0 0;
+    }
+
+    #img-compra{
+        width: 50%;
+        height: 50%;
+    }
+
+    .nome-produto-compra{
+        font-size: 26px;
+        width: 85%;
+        bottom: auto;
+        left: 40%;
+        transform: translate(-40%);  
+        margin-top: 50px;
+    }
+
+    .titulo-descricao-produto-compra{
+        font-size: 14px;
+        bottom: 90%;
+        left: 55%;
+    }
+
+    .descricao-produto-compra{
+        font-size: 12px;
+        bottom: 80%;
+        left: 55%;
+    }
+
+    .categoria-compra{
+        font-size: 10px;
+        bottom: 70%;
+        left: 55%;
+    }
+
+    .valor-compra{
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .btn-compra{
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .btn-adicionar-carrinho{
+        font-size: 14px;
+    }
+
 /*footer*/
     footer, .footer-left{
         width: 100%;
