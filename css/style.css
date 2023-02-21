@@ -282,6 +282,25 @@ body {
     text-align: center;
 }
 
+#botao-filtro{
+    background-color: #19C8DB;
+    border: 1px solid #0c91a0;
+    border-radius: 10px;
+    padding: 5px;
+    width: 30%;
+    margin: 10px;
+}
+
+#botao-filtro, .custom-checkbox label:hover{
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+#botao-filtro:hover{
+    background-color: #0ca2b3;
+    transform: scale(1.05);
+}
+
 .custom-checkbox{
     margin: 8px;
 }
