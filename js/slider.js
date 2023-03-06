@@ -1,5 +1,3 @@
-//---------- Animação Slider da página principal ----------//
-
 let count = 1;
 document.getElementById("slide1").checked = true;
 
