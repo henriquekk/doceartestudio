@@ -279,10 +279,12 @@ body {
     color: white;
     border: none;
     border-radius: 15px;
-    cursor: pointer;
+    
     opacity: 0.9;
     font-size: 16px;
 }
+
+
 
 #close-modal{
     background-color: transparent;
@@ -299,6 +301,12 @@ body {
 
 #close-modal:hover{
     font-size: 52px;    
+}
+
+#fade, #modal{
+    transition: .5s;
+    opacity: 1;
+    pointer-events: all;
 }
 
 #fade{
