@@ -1,3 +1,7 @@
+html{
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f8f8f8;
@@ -53,7 +57,7 @@ body {
 
 .search-box{
     position: absolute;
-    top: 3.5%;
+    top: 5.5%;
     right: 35%;
     background-color: white;
     width: 30%;
@@ -92,7 +96,7 @@ body {
 /*------------------------------------------------------------------------ DESTAQUES PAGINA PRINCIPAL ------------------------------------------------------------------------*/
 .titulo-destaque{
     text-align: center;
-    font-size: 3em;
+    font-size: 5rem;
     clear: left;    
     text-transform: uppercase;
     font-weight: bold;
@@ -208,7 +212,7 @@ body {
 /*------------------------------------------------------------------------ PAGINA PRINCIPAL ------------------------------------------------------------------------*/
 .titulo-principal-produtos{
     text-align: center;
-    font-size: 2.5em;
+    font-size: 4rem;
     clear: left;    
     text-transform: uppercase;
     font-weight: bold;
@@ -237,15 +241,16 @@ body {
 }
 
 .descricao-produto{
-    font-size: 16px;
+    font-size: 1.6rem;
     text-align: center;
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
 }
 
 .preco-produto{
+    position: relative;
     font-weight: bold;
-    font-size: 22px;
-    margin: 60px 2.5% 0 2.5%;
+    font-size: 2.1rem;
+    margin: 50px 10px 10px 10px;
 }
 
 .principal-veja-mais{
@@ -255,7 +260,7 @@ body {
 
 .button-veja-mais{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-transform: uppercase;
     color: white;
     background-color: rgb(60, 174, 209);
@@ -272,13 +277,13 @@ body {
 }
 
 .modal-header h1{
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #00000088;
     margin-bottom: 5px;
 }
 
 .modal-header h2{
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: bold;
     margin-bottom: 50px;
     font-family: 'Pacifico', cursive;
@@ -304,7 +309,7 @@ body {
     border: none;
     cursor: pointer;
     opacity: 0.9;
-    font-size: 50px;
+    font-size: 5rem;
     transition: 0.3s;
     position: absolute;
     left: 88%;
@@ -312,7 +317,7 @@ body {
 }
 
 #close-modal:hover{
-    font-size: 52px;    
+    font-size: 5.2rem;    
 }
 
 #fade, #modal{
@@ -402,7 +407,7 @@ body {
     border-radius: 100px;
     color: white;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.4rem;
     text-transform: uppercase;
     margin: 20px 0 32px 0;
     transition: 0.2s;
@@ -414,7 +419,7 @@ body {
 }
 
 .login-reset{
-    font-size: 12px;
+    font-size: 1.2rem;
     color:#19c8dbb2 ;
     text-decoration: none;
 }
@@ -433,7 +438,7 @@ body {
 }
 
 .filtro-texto-principal{
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -441,7 +446,7 @@ body {
 }
 
 .filtro-texto{
-    font-size: 16px;
+    font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: bold;  
     margin: 0 0 20px 0;
@@ -458,7 +463,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: rgba(0, 0, 0, 0.753);
     display: block;
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 .btn-filtro-estilo, .custom-checkbox label:hover{
@@ -473,6 +478,7 @@ body {
 
 .custom-checkbox{
     margin: 8px;
+    font-size: 1.4em;
 }
 
 .custom-checkbox input{
@@ -550,7 +556,7 @@ body {
     position: absolute;
     bottom: 85%;
     left: 45%;
-    font-size: 40px;
+    font-size: 4rem;
     margin: 10px;
     font-weight: bold;
     text-transform: uppercase;
@@ -561,7 +567,7 @@ body {
     position: absolute;
     bottom: 75%;
     left:45%;
-    font-size: 14px;
+    font-size: 1.4rem;
     border: 2.5px solid black;
     border-radius: 20px;
     padding: 4px;
@@ -578,7 +584,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     color: #0c91a0;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .descricao-produto-compra{
@@ -595,7 +601,7 @@ body {
     position: absolute;
     bottom: 20%;
     left: 45%;
-    font-size: 28px;
+    font-size: 2.8rem;
 }
 
 .btn-compra{
@@ -607,7 +613,7 @@ body {
 
 .btn-adicionar-carrinho{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-transform: uppercase;
     color: white;
     background-color: rgb(60, 174, 209);
@@ -624,7 +630,7 @@ body {
 }
 /*------------------------------------------------------------------------ CARRINHO ------------------------------------------------------------------------*/
 .titulo-carrinho{
-    font-size: 40px;
+    font-size: 4rem;
     text-align: center;
     padding: 50px 0;
 }
@@ -646,20 +652,19 @@ body {
     width: 100%;
 }
 
+.tabela-carrinho tr{
+    border-bottom: 3px solid #eee;
+}
+
 .tabela-carrinho th{
     text-align: left;
     padding-bottom: 10px;
     text-transform: uppercase;
 }
 
-.tabela-carrinho tr{
-    border-bottom: 3px solid #eee;
-}
-
-.tabela-carrinho tbody td{
+.tabela-carrinho td{
     padding: 30px 0;
 }
-
 
 .img-carrinho{
     width: 185px;
@@ -680,13 +685,12 @@ body {
 }
 
 .nome-produto-carrinho{
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .categoria-carrinho{
     color: #9e9e9e;
 }
-
 
 
 /*------------------------------------------------------------------------ FOOTER ------------------------------------------------------------------------*/
@@ -735,7 +739,7 @@ footer{
     color: white;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 1rem;
     margin-top: 5%;
 }
 
@@ -750,7 +754,7 @@ footer{
     text-transform: uppercase;
     font-weight: bold;
     color: white;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 #hipercard-logo{
@@ -905,7 +909,7 @@ footer{
     text-align: center;
     color: white;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bold;
     left: 35%;
     top: 20%;
@@ -938,7 +942,7 @@ footer{
     left: 38%;
     top: 34%;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -948,7 +952,7 @@ footer{
     left: 38%;
     top: 50%;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -958,7 +962,7 @@ footer{
     left: 38%;
     top: 64%;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -979,6 +983,14 @@ footer{
 
 
 /*------------------------------------------------------------------------ DESIGN RESPONSIVO ------------------------------------------------------------------------*/
+@media screen and (max-width: 1440px){
+    .search-box{
+        top: 7%;
+        height: 30px;
+    }
+}
+
+
 @media screen and (max-width: 560px){     
     
 /*header*/    
@@ -1019,17 +1031,17 @@ footer{
     }
 
     .filtro-texto{
-        font-size: 12px;
+        font-size: 1.2rem;
     }
 
     .filtro-texto-principal{
         text-align: center;
-        font-size: 12px;
+        font-size: 1.2rem;
         margin: 10px;
     }
 
     .custom-checkbox label{
-        font-size: 12px;
+        font-size: 1.2rem;
         margin-right: 30px;
     }
 
@@ -1054,7 +1066,7 @@ footer{
     }
 
     .nome-produto-compra{
-        font-size: 26px;
+        font-size: 2.6rem;
         width: 85%;
         bottom: auto;
         left: 40%;
@@ -1063,19 +1075,19 @@ footer{
     }
 
     .titulo-descricao-produto-compra{
-        font-size: 14px;
+        font-size: 1.4rem;
         bottom: 90%;
         left: 55%;
     }
 
     .descricao-produto-compra{
-        font-size: 12px;
+        font-size: 1.2rem;
         bottom: 80%;
         left: 55%;
     }
 
     .categoria-compra{
-        font-size: 10px;
+        font-size: 1rem;
         bottom: 70%;
         left: 55%;
     }
@@ -1091,7 +1103,7 @@ footer{
     }
 
     .btn-adicionar-carrinho{
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 
 /*footer*/
